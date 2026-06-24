@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to left, skyblue, lightseagreen);
+    background: #000;
 }
 
 h1{
     color: #fff;
     text-align: center;
-    margin-top: 45%;
+    margin-top: 300px;
     font-style: italic;
     font-weight: 300;
     text-decoration: overline;
