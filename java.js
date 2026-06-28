@@ -113,6 +113,17 @@ const retu = okay.filter((n => n % 2 === 0));
 // console.log(obj)
 
 
+// default parameter
+
+const type1 = (name="Ahmed", id=232) => {
+  console.log(name);
+  console.log(id)
+}
+
+// type1();
+// type1("Bilal", 77);
+
+
 
 // const obj={
 //     name: "jack",

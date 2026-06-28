@@ -10,11 +10,12 @@
 
 
 
-
 // but in let the story is different
 
 // let b = 3;
+
 // let b = 4;
+
 // b = 5;
 
 // console.log(b);
@@ -103,4 +104,32 @@
 // const dog = new Animal();
 
 // console.log(dog.speak);
+
+
+
+// class mobile {
+//     constructor(name){
+//         this.name = name;
+
+//     }
+
+//     methid(){
+//         return this.name;
+//     }
+// }
+
+// class price extends mobile{
+//     constructor(name, price1){
+//         super(name);
+//         this.price = price1;
+//     }
+
+//     priceOfPro(){
+//         return this.methid + " it is " +this.mobile
+//     }
+// }
+
+// const myMobile = new price("Itel s24", 24000);
+// myMobile.priceOfPro();
+// console.log(myMobile);
 
