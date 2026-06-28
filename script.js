@@ -101,3 +101,23 @@ for(let i=0; i<students.length; i++){
 // mycar.show();
 
 // console.log(mycar);
+
+
+
+// const fruiteName = new Map();
+
+// fruiteName.set("apple", 300);
+// fruiteName.set("mango", 100);
+// fruiteName.set("banana", 150);
+// fruiteName.set("grape", 350);
+
+// let found = fruiteName.get("mango");
+// let check = fruiteName instanceof Map;
+// let checkSize = fruiteName.size;
+// console.log(fruiteName);
+// console.log(typeof(fruiteName));
+// console.log(found);
+// console.log(check);
+// console.log(checkSize);
+
+

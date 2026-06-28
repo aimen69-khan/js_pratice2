@@ -125,11 +125,12 @@
 //     }
 
 //     priceOfPro(){
-//         return this.methid + " it is " +this.mobile
+//         return this.methid + " it is " +this.price
 //     }
 // }
 
 // const myMobile = new price("Itel s24", 24000);
 // myMobile.priceOfPro();
 // console.log(myMobile);
+
 
