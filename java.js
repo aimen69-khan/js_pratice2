@@ -139,3 +139,56 @@ const type1 = (name="Ahmed", id=232) => {
 // const parsed = JSON.parse(stored);
 
 
+
+// const obj = {
+//     name: "Ahmed",
+//     id: 77980,
+// };
+
+// const obj1= {address: "Karachi", house: "17G"};
+// Object.assign(obj, obj1);
+
+// console.log(obj);
+
+
+// const obj = {
+//     firstName: "Ahmed",
+//     lastName: "Raza",
+//     address: "Karachi"
+// }
+
+// let reselt = Object.entries(obj);
+
+// console.log(reselt);
+
+// const fruits = {Bananas:300, Oranges:200, Apples:500};
+
+// let tex = "";
+// for (let [fruit, value] of Object.entries(fruits)) {
+//   tex += fruit + ": " + value + "<br>";
+// }
+
+// console.log(fruits);
+
+
+
+// const fruits1 = {
+//     banana: 100,
+//     mango: 200,
+//     greape: 300
+// }
+
+
+// let reselt = Array.fromEntries(fruits1);
+// let reselt = Object.values(fruits1);
+// let reselt = Object.groupBy(fruits1);
+
+// console.log(reselt);
+
+// console.log(Object.preventExtensions(fruits1));
+// console.log(Object.isExtensible(fruits1));
+// console.log(Object.seal(fruits1));
+// console.log(Object.isSealed(fruits1));
+// console.log(Object.freeze(fruits1));
+// console.log(Object.isFrozen(fruits1));
+

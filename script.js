@@ -104,20 +104,33 @@ for(let i=0; i<students.length; i++){
 
 
 
-// const fruiteName = new Map();
+const fruiteName = new Map();
 
-// fruiteName.set("apple", 300);
-// fruiteName.set("mango", 100);
-// fruiteName.set("banana", 150);
-// fruiteName.set("grape", 350);
+fruiteName.set("apple", 300);
+fruiteName.set("mango", 100);
+fruiteName.set("banana", 150);
+fruiteName.set("grape", 350);
 
-// let found = fruiteName.get("mango");
-// let check = fruiteName instanceof Map;
-// let checkSize = fruiteName.size;
+let found = fruiteName.get("mango");
+let check = fruiteName instanceof Map;
+let checkSize = fruiteName.size;
+let delect = fruiteName.delete("grape");
+// let calear = fruiteName.clear();
+let has = fruiteName.has("banana");
+
+let text = "";
+fruiteName.forEach(function(key, value){
+    text += key + ' = ' + value;
+})
+
+
 // console.log(fruiteName);
 // console.log(typeof(fruiteName));
 // console.log(found);
 // console.log(check);
 // console.log(checkSize);
-
-
+// console.log(delect);
+// console.log(calear);
+// console.log(fruiteName);
+// console.log(has);
+// console.log(text);
