@@ -134,3 +134,116 @@
 // console.log(myMobile);
 
 
+// class Student{
+//     constructor(name, id, age, alive){
+//         this.name = name;
+//         this.id = id;
+//         this.age = age;
+//         this.alive = alive;
+//     }
+
+//    static eat(){
+//         let e = "HE Eats too Much!!";
+//         console.log(e);
+//     }
+// }
+
+// const r = new Student("Bilal", 778115, 16, true);
+// Student.eat();
+// r.eat();
+// console.log(r);
+
+
+
+// class Infor{
+//    static setValue(name, id){
+//        let obj2 = {age: 16, alive: true};
+
+//        localStorage.setItem("obj", JSON.stringify(obj2));
+//        localStorage.setItem("id", id);
+//     }
+
+//    static getValue(){
+//     const w = localStorage.getItem("obj");
+//     const jon = JSON.parse(w);
+//     console.log(jon);
+//     return jon;
+//    }
+// }
+
+// Infor.setValue("Ahmed", 778);
+// Infor.getValue();
+
+
+// class Teacher{
+//     constructor(name, id, causes, ed){
+//         this.name = name;
+//         this.id = id;
+//         this.causes = causes;
+//         this.education = ed;
+//     }
+//     reselt(){
+//         return this.name +" Present Today  *-*";
+//     }
+// }
+
+
+// class Headmister extends Teacher{
+//     constructor(name, id, causes, ed, check){
+//         super(name, id, causes, ed);
+//         this.checking = check;
+//     }
+//     checked(){
+//         return this.name +" Has been Checked!";
+//     }
+// }
+
+// const r = new Headmister("Ahmed", 778115, "WNA", "inter Pass", "Checked")
+
+// console.log(r);
+
+
+
+
+// const add = (a,b) => a+b;
+// const subt = (a,b) => a-b;
+// const mult = (a,b) => a*b;
+// const div = (a,b) => a/b;
+
+// let opreators = ["+", "-", "*", "/"];
+// let userOutput1 = +prompt("Enter An Number!");
+// let userOutput2 = +prompt("Enter Another Number!");
+// let userOutput3 = prompt("Enter An Opreator");
+
+// while(!opreators.includes(userOutput3)){
+//     userOutput1 = +prompt("Try Again1");
+//     userOutput2 = +prompt("Try Again2");
+//     userOutput3 = prompt("Try Again3");
+// }
+
+// console.log(userOutput1, userOutput3, userOutput2);
+
+// if(userOutput3 === opreators[0]){
+//     console.log(add(userOutput1, userOutput2));
+
+// }else if(userOutput3 === opreators[1]){
+//     console.log(subt(userOutput1, userOutput2));
+
+// }else if(userOutput3 === opreators[2]){
+//     console.log(mult(userOutput1, userOutput2));
+
+// }else if(userOutput3 === opreators[3]){
+//     console.log(div(userOutput1, userOutput2));
+
+// }
+
+
+
+// let time = setInterval(()=>{
+//     console.log("Hello World");
+// },[1000]);
+
+// setTimeout(()=> {
+//     clearInterval(time);
+//     console.log("Time Stop")
+// },[3000]);
